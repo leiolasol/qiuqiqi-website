@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangzhou Qiuqiqi Fiber Technologies Co.,Ltd | FTTH Fiber Optic Equipment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { font-family: 'Segoe UI', system-ui, sans-serif; background: #f8f9fa; }
+        .navbar { background: rgba(255,255,255,0.98) !important; box-shadow: 0 4px 20px rgba(0,123,255,0.12); }
+        .hero-carousel { height: 100vh; }
+        .carousel-item img { 
+            height: 100vh; 
+            object-fit: contain; 
+            background: #0a0a0a; 
+            padding: 20px; 
+        }
+        .carousel-caption { background: rgba(0,0,0,0.6); padding: 40px 20px; border-radius: 15px; }
+        .section-title { color: #003087; font-size: 2.8rem; font-weight: 700; position: relative; margin-bottom: 2rem; }
+        .section-title:after { content: ''; width: 90px; height: 4px; background: #007bff; position: absolute; bottom: -12px; left: 50%; transform: translateX(-50%); }
+        .product-card { transition: all 0.4s; border: none; box-shadow: 0 10px 30px rgba(0,123,255,0.15); }
+        .product-card:hover { transform: translateY(-20px) scale(1.03); box-shadow: 0 25px 50px rgba(0,123,255,0.25); }
+        .product-card img { height: 220px; object-fit: contain; background: #fff; }
+        footer { background: linear-gradient(135deg, #007bff, #003087); color: white; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold fs-3 text-primary" href="#">
+            <img src="images/logo.png" alt="Qiuqiqi Logo" height="52">
+            Qiuqiqi Fiber
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link fw-semibold" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link fw-semibold" href="#products">Products</a></li>
+                <li class="nav-item"><a class="nav-link fw-semibold" href="#strength">Company Strength</a></li>
+                <li class="nav-item"><a class="nav-link fw-semibold" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- 轮播（已修复不失真 + 3秒切换） -->
+<section id="home" class="hero-carousel">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/onu.jpg" class="d-block w-100" alt="GPON ONU">
+                <div class="carousel-caption text-center">
+                    <h1 class="display-3 fw-bold">Hangzhou Qiuqiqi Fiber Technologies Co.,Ltd</h1>
+                    <p class="lead fs-3">Professional FTTH Fiber Optic Equipment Manufacturer</p>
+                </div>
+            </div>
+            <div class="carousel-item"><img src="images/patchcord.jpg" class="d-block w-100" alt="Patch Cord"><div class="carousel-caption"><h3>High Quality Fiber Patch Cords</h3></div></div>
+            <div class="carousel-item"><img src="images/cable.jpg" class="d-block w-100" alt="Outdoor Cable"><div class="carousel-caption"><h3>FTTH Outdoor Fiber Cable</h3></div></div>
+            <div class="carousel-item"><img src="images/splice.jpg" class="d-block w-100" alt="Splice Closure"><div class="carousel-caption"><h3>Fiber Optic Splice Closure</h3></div></div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+    </div>
+</section>
+
+<!-- 11类产品 -->
+<section id="products" class="py-5">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">Our 11 Main Product Categories</h2>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-4 col-6"><div class="card product-card h-100"><img src="images/onu.jpg" class="card-img-top" alt="ONU"><div class="card-body"><h5>GPON ONU / ONT</h5></div></div></div>
+            <div class="col-lg-3 col-md-4 col-6"><div class="card product-card h-100"><img src="images/patchcord.jpg" class="card-img-top" alt="Patch Cord"><div class="card-body"><h5>Fiber Optic Patch Cord</h5></div></div></div>
+            <div class="col-lg-3 col-md-4 col-6"><div class="card product-card h-100"><img src="images/cable.jpg" class="card-img-top" alt="Outdoor Cable"><div class="card-body"><h5>Outdoor FTTH Cable</h5></div></div></div>
+            <div class="col-lg-3 col-md-4 col-6"><div class="card product-card h-100"><img src="images/splice.jpg" class="card-img-top" alt="Splice Closure"><div class="card-body"><h5>Fiber Splice Closure</h5></div></div></div>
+            <div class="col-lg-3 col-md-4 col-6"><div class="card product-card h-100"><img src="images/clamp.jpg" class="card-img-top" alt="Clamps"><div class="card-body"><h5>Cable Clamps & Hardware</h5></div></div></div>
+            <div class="col-lg-3 col-md-4 col-6"><div class="card product-card h-100"><img src="images/figure8clamp.jpg" class="card-img-top" alt="Figure-8 Clamp"><div class="card-body"><h5>Figure-8 Cable Clamp</h5></div></div></div>
+            <div class="col-lg-3 col-md-4 col-6"><div class="card product-card h-100"><img src="images/utp.jpg" class="card-img-top" alt="UTP"><div class="card-body"><h5>UTP CAT5E Cable</h5></div></div></div>
+            <div class="col-lg-3 col-md-4 col-6"><div class="card product-card h-100"><img src="images/oltport.jpg" class="card-img-top" alt="OLT Port"><div class="card-body"><h5>OLT / Switch Port</h5></div></div></div>
+            <div class="col-lg-3 col-md-4 col-6"><div class="card product-card h-100"><img src="images/pigtail.jpg" class="card-img-top" alt="Pigtail"><div class="card-body"><h5>Fiber Optic Pigtails</h5></div></div></div>
+            <div class="col-lg-3 col-md-4 col-6"><div class="card product-card h-100"><img src="images/connector.jpg" class="card-img-top" alt="Fast Connector"><div class="card-body"><h5>Fast Connectors</h5></div></div></div>
+            <div class="col-lg-3 col-md-4 col-6"><div class="card product-card h-100"><img src="images/adapter.jpg" class="card-img-top" alt="Adapter"><div class="card-body"><h5>Fiber Optic Adapters</h5></div></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- Company Strength（图标已强化） -->
+<section id="strength" class="py-5 bg-white">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">Company Strength</h2>
+        <div class="row g-5 text-center">
+            <div class="col-md-3">
+                <i class="fas fa-factory fa-4x text-primary mb-3"></i>
+                <h5>Modern Factory</h5>
+                <p>Advanced production lines in Hangzhou</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fas fa-certificate fa-4x text-primary mb-3"></i>
+                <h5>Certifications</h5>
+                <p>ISO9001 · CE · RoHS · SGS</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fas fa-globe fa-4x text-primary mb-3"></i>
+                <h5>Global Export</h5>
+                <p>Products sold to 50+ countries</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fas fa-users fa-4x text-primary mb-3"></i>
+                <h5>Professional Team</h5>
+                <p>10+ years R&D and sales team</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact（保持不变） -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">Contact Us</h2>
+        <div class="row">
+            <div class="col-lg-5">
+                <h5>Contact Person: Leo Pan</h5>
+                <p><strong>Email:</strong> <a href="mailto:sales01@qiuqiqi.site">sales01@qiuqiqi.site</a></p>
+                <p><strong>WhatsApp:</strong> <a href="https://wa.me/8618868782699" target="_blank">+86 188 6878 2699</a></p>
+                <p><strong>Address:</strong><br>RM715, 7# Building, LeTianCheng,<br>WuChang Street, Yuhang District,<br>Hangzhou, Zhejiang, China 330110</p>
+            </div>
+            <div class="col-lg-7">
+                <form action="https://formspree.io/f/mqkrjkyb" method="POST">
+                    <input type="text" name="name" class="form-control mb-3" placeholder="Your Name" required>
+                    <input type="email" name="email" class="form-control mb-3" placeholder="Your Email" required>
+                    <textarea name="message" class="form-control mb-3" rows="5" placeholder="Inquiry details..." required></textarea>
+                    <button type="submit" class="btn btn-primary btn-lg w-100">Send Inquiry Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="text-center py-4">
+    <div class="container">
+        <p>© 2025 Hangzhou Qiuqiqi Fiber Technologies Co.,Ltd. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
